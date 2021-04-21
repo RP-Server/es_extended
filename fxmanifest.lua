@@ -1,10 +1,10 @@
-fx_version 'adamant'
+fx_version 'cerulean'
 
 game 'gta5'
 
 description 'ES Extended'
 
-version '1.2.0'
+version '1.3.0'
 
 server_scripts {
 	'@async/async.lua',
@@ -40,15 +40,7 @@ server_scripts {
 client_scripts {
 	'locale.lua',
 	'locales/de.lua',
-	'locales/br.lua',
-	'locales/fr.lua',
 	'locales/en.lua',
-	'locales/fi.lua',
-	'locales/sv.lua',
-	'locales/pl.lua',
-	'locales/cs.lua',
-	'locales/sc.lua',
-	'locales/tc.lua',
 
 	'config.lua',
 	'config.weapons.lua',
